@@ -1,0 +1,33 @@
+.ul {
+    display: inline-block;
+    background-color: #34495E;
+    width: 80%;
+    list-style-type: none;
+    color: white;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.ul {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue rgb(255, 255, 255);   /* scroll thumb and track */ 
+}
+
+.todoitem {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: .5rem;
+}
+.detail {
+    width: 90%;
+    text-align: start;
+}
+.close {
+    width: 10%;
+}
+.date {
+    color: #69727b;
+    font-size: .8rem;
+    padding-top: .5rem;
+}

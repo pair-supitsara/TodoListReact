@@ -1,0 +1,13 @@
+.row {
+    display: inline-block;
+    text-align: center;
+}
+.label {
+    color: white;
+    margin: .5rem .2rem;
+}
+.input {
+    margin: .5rem .2rem;
+    letter-spacing: .02rem;
+    padding: .25rem;
+}

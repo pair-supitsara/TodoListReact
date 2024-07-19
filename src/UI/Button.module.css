@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: .3rem .6rem;
+    border-radius: .2rem;
+    margin: .25rem;
+}
+.button:hover {
+    background-color: rgb(212, 178, 41);
+    cursor: pointer;
+    transform: translateY(-2px) translateX(-2px);
+}
